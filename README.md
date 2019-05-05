@@ -1,1 +1,43 @@
-"# learningruby" 
+# learningruby
+
+ruby/unitarios 
+
+TDD na prática - Conta Corrente
+
+rspec -fd (formato de documentação)
+
+## executar o teste para a conta corrente:
+
+```go
+rspec spec\bank\saque_cc_spec.rb -fd
+```
+
+executar o teste para a conta poupança:
+
+```go
+rspec spec\bank\saque_cp_spec.rb -fd
+```
+
+executar os dois arquivos:
+
+```go
+rspec spec\bank -fd
+```
+
+## relatório:
+
+```go
+rspec spec\bank --format html --out report.html
+```
+
+## relatório xml:
+
+```go
+rspec spec\bank --format RspecJunitFormatter --out report.xml
+```
+
+## ambos:
+
+```go
+rspec spec\bank --format html --out report.html -fd
+```
