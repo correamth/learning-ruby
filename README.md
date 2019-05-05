@@ -2,11 +2,11 @@
 
 ruby/unitarios 
 
-TDD na prática - Conta Corrente
+## TDD na prática - App bank
 
 rspec -fd (formato de documentação)
 
-## executar o teste para a conta corrente:
+executar o teste para a conta corrente:
 
 ```go
 rspec spec\bank\saque_cc_spec.rb -fd
