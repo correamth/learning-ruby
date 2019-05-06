@@ -24,19 +24,23 @@ executar os dois arquivos:
 rspec spec\bank -fd
 ```
 
+https://correamth.github.io/learningruby/unitarios/saque_spec%20saida.png
+
 ## relatório:
 
 ```go
 rspec spec\bank --format html --out report.html
 ```
 
-Saída https://correamth.github.io/learningruby/unitarios/report.html
+https://correamth.github.io/learningruby/unitarios/report.html
 
 ## relatório xml:
 
 ```go
 rspec spec\bank --format RspecJunitFormatter --out report.xml
 ```
+
+https://correamth.github.io/learningruby/unitarios/report.xml
 
 ## ambos:
 
