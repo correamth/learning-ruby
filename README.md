@@ -24,7 +24,7 @@ executar os dois arquivos:
 rspec spec\bank -fd
 ```
 
-https://correamth.github.io/learningruby/unitarios/saque_spec%20saida.png
+[resultado](https://correamth.github.io/learningruby/unitarios/saque_spec%20saida.png)
 
 ## relatório:
 
@@ -32,7 +32,7 @@ https://correamth.github.io/learningruby/unitarios/saque_spec%20saida.png
 rspec spec\bank --format html --out report.html
 ```
 
-https://correamth.github.io/learningruby/unitarios/report.html
+[resultado](https://correamth.github.io/learningruby/unitarios/report.html)
 
 ## relatório xml:
 
@@ -40,7 +40,7 @@ https://correamth.github.io/learningruby/unitarios/report.html
 rspec spec\bank --format RspecJunitFormatter --out report.xml
 ```
 
-https://correamth.github.io/learningruby/unitarios/report.xml
+[resultado](https://correamth.github.io/learningruby/unitarios/report.xml)
 
 ## ambos:
 
