@@ -30,6 +30,8 @@ rspec spec\bank -fd
 rspec spec\bank --format html --out report.html
 ```
 
+Saída https://correamth.github.io/learningruby/unitarios/report.html
+
 ## relatório xml:
 
 ```go
